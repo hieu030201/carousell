@@ -362,5 +362,51 @@ return [
         'treknogy',
         'japan foldable bike',
         'Hellu kkkk',
+    ],
+
+    'item-find-usedcar' =>[
+        'https://sl3-cdn.karousell.com/homescreens/main/sg_web_homepage/cars/carrental.png',
+        'https://sl3-cdn.karousell.com/homescreens/main/sg_web_homepage/cars/parallelimports.png',
+        'https://sl3-cdn.karousell.com/homescreens/main/sg_web_homepage/cars/commercialvehicles.png',
+        'https://sl3-cdn.karousell.com/homescreens/main/sg_web_homepage/cars/caraccessories.png',
+        'https://sl3-cdn.karousell.com/homescreens/main/sg_web_homepage/cars/motorcycles.png',
+    ],
+
+    'trending-usedcar' =>[
+        'Volkswagen Scirocco',
+        'Honda Civic',
+        'Audi A3',
+        'Toyota Vios', 
+        'Nissan GTR', 
+        'Subaru Impreza', 
+        'MINI Cooper', 
+        'Suzuki Swift', 
+        'Mitsubishi Lancer', 
+        'Kia Cerato Forte', 
+        'Mazda 3'
+    ],
+
+    'usedcar-option1' =>[
+        'Sedan',
+        'Hatchback',
+        'SUV',
+        'MPV',
+        'Couple',
+        'Cabriolet',
+        'Station Wagon',
+    ],
+
+    'usedcar-option2' =>[
+        '<7k',
+        '<8k',
+        '<9k',
+        '<10k',
+        '11k-12k',
+        '3k-14k',
+        '14k-16k',
+        '16k-18K',
+        '18k-20K',
+        '>20K',
+        'Any',
     ]
 ];

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/main.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/virtual-select.min.css') }}" rel="stylesheet">
 
     {{-- gg font --}}
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -46,5 +47,11 @@
 
 <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
 <script type="text/javascript" src="{{asset('/js/detail.js')}}"></script>
+<script type="text/javascript" src="{{asset('/js/virtual-select.min.js')}}"></script>
+<script type="text/javascript">
+    VirtualSelect.init({
+        ele: '#multipleSelect'
+    });
+</script>
 </body>
 </html>

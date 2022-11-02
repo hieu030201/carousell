@@ -1,3 +1,9 @@
 .banner{
-    background-image: url(https://sl3-cdn.karousell.com/homescreens/web/bg_cars_homescreen_sg.png);
+    background:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("https://sl3-cdn.karousell.com/homescreens/web/bg_cars_homescreen_sg.png");
+    height: 485px;
+    width: 100%;
+    background-size: cover;
+}
+.add{
+    background-image: url(https://sl3-cdn.karousell.com/components/campaign/swiftquote_link_button_bg.png);
 }

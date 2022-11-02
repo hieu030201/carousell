@@ -20,6 +20,7 @@ Route::get('/', function () {
 
 Route::get('/search', function () {
     return view('searchPage');
+});
 
 Route::get('/detail', function () {
     return view('detail');
