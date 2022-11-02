@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('home');
 });
 
+
+Route::get('/search', function () {
+    return view('searchPage');
+
 Route::get('/detail', function () {
     return view('detail');
 });
@@ -27,6 +31,7 @@ Route::get('/login', function () {
 
 Route::get('/register', function () {
     return view('/auth/register');
+
 });
 
 Route::get('/used-card', function () {
