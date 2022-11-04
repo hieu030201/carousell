@@ -6,10 +6,10 @@
         $showSimilarProduct = Config::get('products.similar-product');
         $showItemSearchFor = Config::get('products.item-search-for');
     @endphp
-    <section class="mt-10 m-auto">
+    <section class="mt-24 m-auto">
         <div class="content w-full lg:w-10/12 m-auto">
             <!-- start breadcrumb -->
-            <ul class="breadcrumb-detail pt-4 hidden lg:flex">
+            <ul class="breadcrumb-detail py-6 hidden lg:flex">
                 <li><a class="text-[#008f79] hover:text-[#008f79]" href="">Sport Equipment</a></li>
                 <svg class="mt-1 mx-1" fill="#c5c5c6" height="18" viewBox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"></path></svg>
                 <li><a class="text-[#008f79] hover:text-[#008f79]" href="">Bycycles & Parts</a></li>
@@ -19,9 +19,9 @@
             <!-- end breadcrumb -->
 
             <!-- slide-image start -->
-            <div class="flex items-center justify-center w-full m-auto">
+            <div class="flex items-center justify-center w-full m-auto ">
                 <div class="w-full relative flex items-center justify-center">
-                    <div class="w-full h-full mx-auto">
+                    <div class="w-full h-full mx-auto  rounded-md">
                         <div class="slider-img block m-auto">
                             @foreach($showSlideProduct as $slidePro)
                             <div class="sm:mr-1">
@@ -48,7 +48,7 @@
                             <span class="ml-2">Likes</span>
                         </div>
                     </a> 
-                    <button id="box-img-show" data-modal-target="#modal" class="absolute mt-60 mr-10 z-30 right-0 text-[#2c2c2d] hover:text-[#2c2c2d]">
+                    <button id="box-img-show" data-modal-target="#modal" class="absolute mt-60 mr-10 z-8 right-0 text-[#2c2c2d] hover:text-[#2c2c2d]">
                         <div class="bg-white flex py-2 px-2 rounded-md hover:bg-gray-300">
                             <svg class="D_aNI" height="25" viewBox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="M3 3v18h18V3H3zM2 1h20a1 1 0 0 1 1 1v20a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zm4.7 15.7a1 1 0 1 1-1.4-1.4l2-2a1 1 0 0 1 1.3 0l4.3 3.4 4.4-4.4a1 1 0 0 1 1.4 1.4l-5 5a1 1 0 0 1-1.3 0L8 15.4l-1.4 1.4zM11 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" fill="#57585a" fill-rule="nonzero"></path></svg>
                             <span class="ml-2"> 5 images</span>
@@ -311,8 +311,8 @@
         </div>
     </section>
      <!-- start show images detail -->
-     <div id="modal" class="bg-modal z-100 w-full h-screen box-img-modal fixed bg-white hidden">
-        <div class="modal-content flex relative">
+     <div id="modal" class="bg-modal w-full h-screen bg-white hidden">
+        <div class="modal-content">
             <div class="close right-0 mr-12 mt-12 p-2 bg-black rounded-full absolute cursor-pointer hover:shadow-[rgba(0, 0, 0, 0.3)]"><svg class="bg-black" fill="#ffffff" fill-rule="nonzero" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><title>Close Icon</title><path d="M13.414 12l5.293 5.293a1 1 0 0 1-1.414 1.414L12 13.414l-5.293 5.293a1 1 0 1 1-1.414-1.414L10.586 12 5.293 6.707a1 1 0 0 1 1.414-1.414L12 10.586l5.293-5.293a1 1 0 0 1 1.414 1.414L13.414 12z"></path></svg></div>
             <div class="box-img w-10/12 block m-auto">
                 <div class="main">

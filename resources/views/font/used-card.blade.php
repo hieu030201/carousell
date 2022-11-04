@@ -23,7 +23,7 @@
                         </div>
                         <div class="filter-option">
                             <label>Depreciation</label>
-                            <select name="" id="multipleSelect" multiple name="filter-type" placeholder="Depreciation:" data-search="false" data-silent-initial-value-set="true">
+                            <select name="" for="" id="multipleSelect" multiple name="filter-type" placeholder="Depreciation:" data-search="false" data-silent-initial-value-set="true">
                                 <option value="1">Option 1</option>
                                 <option value="2">Option 2</option>
                                 <option value="3">Option 3</option>

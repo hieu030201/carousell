@@ -1,5 +1,5 @@
-<div id="modal-login" class="modal-login absolute w-full bg-[rgba(0,0,0,0.3)] hidden z-40 overflow-y: scroll;" aria-hidden="true" style="padding-top: 200px;padding-bottom: 120px;">
-    <div class="md:w-[472px] rounded-lg px-5 m-auto bg-white">
+<div id="modal-login" class="modal-login absolute top-0 pt-20 sm:pt-26 md:pt-28 lg:pt-32 xl:pt-36 w-full bg-[rgba(0,0,0,0.3)] hidden z-40 overflow-y: scroll;" aria-hidden="true" >
+    <div class="md:w-[472px] lg:w-[500px] rounded-lg px-5 m-auto bg-white">
         <div class="border-b m-auto relative">
             <img class="w-48 py-4" src="https://mweb-cdn.karousell.com/build/carousell-logo-title-2Nnf7YFiNk.svg" alt="">
             <div class="close absolute right-0 top-0 mt-3 rounded-full cursor-pointer hover:shadow-[rgba(0, 0, 0, 0.3)]">
@@ -35,7 +35,7 @@
                     </div>
                     <div class="flex">
                         <label class="border text-lg py-2 px-3" for="">🇸🇬 +65</label>
-                        <input type="email" class="form-control block  px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleFormControlInput2" placeholder="Mobile phone"/>
+                        <input type="phone" class="form-control block  px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleFormControlInput2" placeholder="Mobile phone"/>
                         <button  class="border text-lg py-3 px-2 bg-[#008e78]">
                                 Verify
                         </button> 

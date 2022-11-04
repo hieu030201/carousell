@@ -43,7 +43,7 @@ $('.slider-img').slick({
 
 document.getElementById('box-img-show').addEventListener('click',
 function(){
-    document.querySelector('.bg-modal').style.display = 'inline';
+    document.querySelector('.bg-modal').style.display = 'block';
 });
 
 document.querySelector('.close').addEventListener('click',

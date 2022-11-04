@@ -16,7 +16,7 @@
         <img class="w-48 py-4" src="https://mweb-cdn.karousell.com/build/carousell-logo-title-2Nnf7YFiNk.svg" alt="">
     </div>
     <section class="min-h-screen mt-10 flex justify-center m-auto">
-        <div class="md:w-[472px] rounded-lg px-5 m-auto bg-white">
+        <div class="w-full md:w-[472px] lg:w-[500px] px-5 m-auto bg-white">
         <h1 class="font-bold text-4xl text-center mt-5">Sign-up</h1>
                 <div>
                     <button class="w-full px-6 py-2 mt-12 rounded-md bg-[#4567b2]">
@@ -45,12 +45,14 @@
                         <input type="email" class="form-control block w-full px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleFormControlInput2"
                         placeholder="Email"/>
                         </div>
-                        <div class="flex">
-                            <label class="border text-lg py-2 px-3" for="">🇸🇬 +65</label>
-                            <input type="email" class="form-control block  px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleFormControlInput2" placeholder="Mobile phone"/>
-                            <button  class="border text-lg py-3 px-2 bg-[#008e78]">
-                                    Verify
-                            </button> 
+                        <div class="w-12/12">
+                            <div class="flex form-control">
+                                <label class="border text-lg py-2 px-3" for="">🇸🇬 +65</label>
+                                <input type="text" class="form-control text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleFormControlInput2" placeholder="Mobile phone"/>
+                                <button  class="border text-lg py-3 px-2 bg-[#008e78]">
+                                        Verify
+                                </button> 
+                            </div>
                         </div>
                         <div class="mt-1">
                                 <span class="text-[#57585a] text-lg hover:text-[#008f79]" >We verify identities via mobile numbers to ensure a safe community for you to deal in. An SMS will be sent to you. Message and data rates may apply.</span>
